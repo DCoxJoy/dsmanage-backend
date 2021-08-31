@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/datasheets",
+      "handler": "datasheets.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/datasheets/count",
+      "handler": "datasheets.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/datasheets/:id",
+      "handler": "datasheets.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/datasheets",
+      "handler": "datasheets.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/datasheets/:id",
+      "handler": "datasheets.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/datasheets/:id",
+      "handler": "datasheets.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
